@@ -7,7 +7,8 @@ Functions to reduce common make-figure-look-nicer commands to as few keystrokes 
  - Or inherit into another object using **< ggraph**. 
 
 ## Functions
-**og** - checks openGL is set to harware, if available. 
-**ng** - makes the current figure look nicer, specific templates can be defined inside. 
-**hgx** - uses hgexport and savas to save .png, svg and/or .fig. 
-**getCols** - get MATLAB's 'DefaultAxesColorOrder'. 
+
+**og** - checks openGL is set to harware, if available.  
+**ng** - makes the current figure look nicer, specific templates can be defined inside.  
+**hgx** - uses hgexport and savas to save .png, svg and/or .fig.  
+**getCols** - get MATLAB's 'DefaultAxesColorOrder'.  
