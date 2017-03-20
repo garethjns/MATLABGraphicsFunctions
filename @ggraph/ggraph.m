@@ -1,13 +1,13 @@
 classdef ggraph
     % Matlab plotting convenience functions
     
-    properties
+    properties (Hidden)
         beAnnoying = true
     end
     
     methods
         
-        function obj = ggraph(obj)
+        function obj = ggraph()
             
             if obj.beAnnoying
                 disp('Importing ggraph')
