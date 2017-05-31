@@ -43,6 +43,8 @@ switch template
         fPos = [1 1 1200 600];
     case '800'
         fPos = [1 1 800 600];
+    case 'Small'
+        fPos = [1 1 600 400];
     case '1024'
         fPos = [1 1 1024 768];
         lLineWidth = 2;
