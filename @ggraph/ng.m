@@ -142,8 +142,9 @@ for i=1:length(handles)
                 case {'ScatterCC', 'BigScatter', 'PosterThinCC'}
                 otherwise
                     handles(i).SizeData = scMarkerSize;
-                    handles(i).MarkerFaceColor = handles(i).CData;
+                    
             end
+            handles(i).MarkerFaceColor = handles(i).CData;
             
         case 'legend'
             handles(i).FontSize = lFontSize;
